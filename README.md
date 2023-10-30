@@ -1,4 +1,5 @@
-# SupervisedVsLLM-EfficacyEval
+# Evaluating the Efficacy of Supervised Learning vs. Large Language Models for Identifying Cognitive Distortions and Suicidal Risks in Chinese Social Media
+
 This is the data and code for the paper: Evaluating the Efficacy of Supervised Learning vs. Large Language Models for Identifying Cognitive Distortions and Suicidal Risks in Chinese Social Media.
 
 * Paper link: https://arxiv.org/abs/2309.03564
@@ -10,8 +11,8 @@ We introduce two novel annotated datasets from Chinese social media, focused on 
 The specific code directory structure is as follows:
 
 - `data/`:
-    - `cognitive distortion/`:Data containing cognitive distortions has been stored. There are data files of various formats in this folder for subsequent use by different models.
-    - `suicide/`: Data containing suicide has been stored. There are data files of various formats in this folder for subsequent use by different models.
+  - `cognitive distortion/`:Data containing cognitive distortions has been stored. There are data files of various formats in this folder for subsequent use by different models.
+  - `suicide/`: Data containing suicide has been stored. There are data files of various formats in this folder for subsequent use by different models.
 - `bert-base-chinese/`: BERT's pre-trained files. Due to file size limitations, you can download it from the website: https://huggingface.co/bert-base-chinese# .
 - `LLM/`:code for LLM test.
   - `ZeroShot/`:The code for zero-shot prompting. This process encompasses various strategies, including direct task requests (acting as the basic), role-definition, scene-definition, and hybrid approaches.

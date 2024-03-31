@@ -20,6 +20,9 @@ The specific code directory structure is as follows:
   - `Fine-tuning/`: The code for LLM-fine-tunning.
 - `supervised_learning/`: Code for supervised learning. Includes two major supervised learning models: BERT and LSAN.
 
+## Dataset Update
+
+In our subsequent research, we have collected a cognitive distortion dataset and meticulously annotated it by hand. If you are interested in this dataset, please contact guanghui.fu@inria.fr to obtain it.
 ## Citation
 
 If this repository helps you, please cite this paper:

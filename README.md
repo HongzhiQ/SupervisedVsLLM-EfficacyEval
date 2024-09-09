@@ -22,7 +22,7 @@ The specific code directory structure is as follows:
 
 ## Dataset Update
 
-In our subsequent research,We have expanded the cognitive distortion dataset and meticulously annotated it. If you are interested in this dataset, please contact guanghui.fu@inria.fr to obtain it.
+In our subsequent research,We have expanded the cognitive distortion dataset and meticulously annotated it. We put the expanded dataset in the data/SocialCD-3k folder.
 ## Citation
 
 If this repository helps you, please cite this paper:
